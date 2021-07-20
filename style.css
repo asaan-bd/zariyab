@@ -1,0 +1,150 @@
+body, ul, li, h1, h2, a{
+    margin: 0px;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color:gray;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    max-width: 100%;
+    width: 1300px;
+    z-index: 1;
+    top: 0px;
+    left: 0px;
+}
+
+header h1{
+    color:rgb(7, 255, 7);
+    border: 8px solid rgb(7, 255, 7) ;
+    padding: 6px 12px;
+    display: inline-block;
+    border-radius: 36px;
+    
+
+
+}
+
+.banner{
+    position:relative;
+}
+
+.banner img{
+    max-width: 100%;
+}
+
+.banner .welcome{
+    background-color:gray ;
+    background-size: 40%;
+    border-radius: 36px;
+    color: rgb(7, 255, 7);
+    margin-top: 30px;
+    padding: 10px;
+    position: absolute;
+    left:0px;
+    top: 30%;
+}
+
+.banner h2{
+    font: size 75px; ;
+}
+.banner h2 span{
+    font-size: 1.5em;
+}
+
+nav{
+    position: sticky;
+    top: 80px;
+}
+
+.main-nav ul{
+    background-color:#F5F5F5 ;
+    padding: 20px;}
+
+
+nav ul{
+    white-space: nowrap;
+    text-align: center;
+    margin-top: -6px;
+}
+
+nav li{
+    width: 25%;
+    display: inline-block;
+  ;
+}
+
+nav li a{
+    text-decoration: none;
+    color: rgb(9, 111, 9);
+}
+
+nav li a .join{
+    color: darkgreen;
+}
+
+nav li a.news{
+    color: darkgreen;
+}
+
+nav li a .games{
+    color: darkgreen;
+}
+
+nav li a .contact{
+    color: darkgreen;
+}
+
+main{
+    max-width: 80%;
+    width: 1000px;
+    margin: 80px auto;
+    padding: 0 40px;
+    box-sizing:border-box;
+}
+
+article h2{
+    color: rgb(7, 255, 7);
+    font-size: 48px;
+}
+
+article p{
+    line-height: 2em;
+    color: darkgrey;
+}
+
+.images{
+    text-align: center;
+    
+    
+}
+
+.images li{
+    display: inline-block;
+
+    
+
+}
+ul li p{
+    color: rgb(27, 44, 10);
+    border: 5px solid black;
+    border-radius: 38px;
+}
+
+
+.join{
+    background-color: honeydew;
+    text-align: center;
+}
+
+.join h2{
+    font-size: 36px;
+    color: greenyellow;
+}
+
+form input{
+    border-radius: 38px;
+}
+
